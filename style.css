@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-        font-family: Figtree-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-family: Figtree-Regular, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -10,19 +10,17 @@ header {
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid #f5f5f6;
-    background-color: #ffffff;
     position: fixed;
+    background-color: #ffffff;
     width: 100%;
 }
 
 .logo_container {
-
     margin-left: 4%;
 }
 
 .logo {
     height: 45px;
-
 }
 
 .nav {
@@ -31,13 +29,12 @@ header {
     justify-content: space-between;
     margin-right: 100px;
     margin-left: 20px;
-
 }
 
 .nav_content {
     text-decoration: none;
     font-weight: 650;
-transition: left .2s ease-out, width .2s ease-out;
+    transition: left .2s ease-out, width .2s ease-out;
     font-size: 14px;
     letter-spacing: .3px;
     color: #282c3f;
@@ -47,7 +44,6 @@ transition: left .2s ease-out, width .2s ease-out;
 
 #men:hover {
     border-bottom: 5px solid #ee5f73;
-    ;
 }
 
 #women:hover {
@@ -76,8 +72,7 @@ transition: left .2s ease-out, width .2s ease-out;
 
 .nav a sup {
     font-size: 75%;
-
-    color: #ff3f6c;;
+    color: #ff3f6c;
 }
 
 .search_bar {
@@ -86,7 +81,6 @@ transition: left .2s ease-out, width .2s ease-out;
     align-items: center;
     width: 30%;
     margin-right: 20px;
-
 }
 
 .search_input {
@@ -109,59 +103,43 @@ transition: left .2s ease-out, width .2s ease-out;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
-.action_container a{
+
+.action_container a {
     color: black;
     text-decoration: none;
 }
-.action_name{
+
+.action_name {
     font-weight: 600;
 }
 
 .action_bar {
-      margin-right: 1%;
+    margin-right: 1%;
     display: flex;
     justify-content: space-evenly;
     min-width: 200px;
 }
-.category_heading {
-    text-transform: uppercase;
-    color: #3e4152;
-    letter-spacing: .15em;
-    font-size: 1.8em;
-    margin: 50px 0 10px 30px;
-    max-height: 5em;
-    font-weight: 700;
-    display: flex;
-}
-.banner_image{
+
+.image {
     width: 96.2%;
 }
-.images{
-    margin-left:3%;
-}
-.category_items{
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.sale_item {
-    width: 250px;
-}
-.imagestatic{
+
+.imagestatic {
     position: absolute;
     right: 0%;
-    bottom:21%;
+    bottom: 21%;
     position: fixed;
 }
-.imagestatic2{
+
+.imagestatic2 {
     position: absolute;
     right: 0%;
     bottom: 12%;
     right: 1.5%;
     position: fixed;
 }
+
 footer {
     padding: 30px 0px 40px 0px;
     background: #FAFBFC;
@@ -242,5 +220,3 @@ footer {
     color: #696b79;
     text-decoration: none;
 }
-
-
