@@ -10,7 +10,9 @@ header {
     justify-content: space-around;
     align-items: center;
     border-bottom: 2px solid #f5f5f6;
-    ;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
 }
 
 .logo_container {
@@ -131,12 +133,15 @@ transition: left .2s ease-out, width .2s ease-out;
     margin: 50px 0 10px 30px;
     max-height: 5em;
     font-weight: 700;
+    display: flex;
 }
-.image{
+.banner_image{
     width: 96.2%;
 }
-
 .images{
+    margin-left:3%;
+}
+.category_items{
    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -157,56 +162,85 @@ transition: left .2s ease-out, width .2s ease-out;
     right: 1.5%;
     position: fixed;
 }
-.footer_container1{
+footer {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+}
+
+.footer_container1 {
     display: flex;
     justify-content: space-evenly;
- 
-
+    margin-top: 4%;
+    margin-left: 6.3%;
+    margin-right: 6.3%;
 }
 
-.footer_column{
-    display: flex;
-    flex-direction: column;
-}
-.footer_column a{
-    color:#696b79 ;
-    text-decoration: none;
-}
-.footer_column h3{
-    color: #282c3f;
-     font-size: 12px;
+#link {
+    color: #000000;
+    font-size: 12px;
     font-weight: 700;
 }
 
-.footer_container2{
+.footer_column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column1 a {
+    color: #696b79;
+    text-decoration: none;
+}
+
+.footer_column1 h3 {
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.social {
+    width: 130px;
+}
+
+.footer_container2 {
     display: flex;
     justify-content: space-evenly;
+    margin-left: 6.3%;
+    margin-right: 6.3%;
 }
-.footer_column2{
+
+.footer_column2 {
     display: flex;
     flex-direction: column;
     margin-left: 6.3%;
     margin-right: 6.3%;
 }
-.footer_column2 h3{
+
+.footer_column2 h3 {
     color: #282c3f;
     font-size: 12px;
     font-weight: 700;
 }
-.footer_column3{
+
+.footer_container3 {
+    margin-left: 11.8%;
+    margin-right: 11.8%;
+}
+
+.footer_column3 {
     display: flex;
     justify-content: space-between;
-    color:#696b79 ;
-    
+    color: #696b79;
 }
-.footer_column3 a{
-    color:  #526cd0;
+
+.footer_column3 a {
+    color: #526cd0;
     font-weight: 700;
     text-decoration: none;
 }
 
-.txtdeco{
+.txtdeco {
     color: #696b79;
-text-decoration: none;
+    text-decoration: none;
 }
+
 
